@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="game-container">
+        <div class="container">
+                <select id="paragraph" >
+                    <option value = "1">Tiếng Việt.</option>
+                </select>
+            <div id="words"></div>
+            <div id="control">
+                <input type="text" id="input-word" autocomplete="off">
+                <p id="time">1:00</p>
+                <button class="start"> Start</i>
+                </button>
+            </div>
+            <div id="info" >
+                    <p class="result-cha">Kết quả</p>
+                    <div class="result-con">
+                        <div>Đúng:</div>
+                        <div class="words-correct">0</div>
+                    </div>
+                    <div class="result-con">
+                        <div>Sai:</div>
+                        <div class="words-wrong">0</div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
